@@ -8,6 +8,7 @@ class Performer {
 	// this constructor will generate a new performerID for each instance that
 	// is created so you have new IDs
 	Performer() {
+		/*% ids should be unique - this could cause some performers to have the same id %*/
 		performerID = rand.nextInt(5000);
 	}
 
